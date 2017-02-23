@@ -1,0 +1,53 @@
+
+
+Basic linux commands
+
+1. pwd -print working directory.It displays the pathname of the current working
+              directory
+      Eg.pwd
+
+2. vi -It starts the visual mode for editing a file
+     Eg. vi filename - filename is the file to be edited.
+
+3. touch-It creates an empty file with the name specified by the user.
+    Eg. touch filename.txt - updates the access time to current time
+
+4. mkdir-Make directory.It is used to create a new directory
+    Eg. mkdir aaa - createss a directory named aaa.
+
+5. rm-Remove.rm command deletes the specified file or all files but not the directory
+    Eg. rm aaa.txt
+
+6. ls-List .It is used to list the contents of the directory
+    Eg. ls -a
+
+7. echo -It is used to display the line of text.
+              It can be used in any place to insert the text.
+     Eg.echo I Love India
+
+8. cat-It is used to create 1 or more files,view files,concatenate files and to
+          display the contents of the file to the standard output device
+     Eg.cat aa.txt - displays content in terminal box.
+
+9. who-It is used to display the details of the person who is logged on to the system
+     Eg.who
+
+10. cd-Change directory.It is used to change the current working directory 
+     Eg.cd aaa/newproject
+
+11. date-Date command is used to display date in various formats.
+               It also allows  to set systems date and time.
+    Eg.date
+
+12. cal-It displays the calender in the terminal. 
+           cal without any options displays the current month.
+    Eg.cal -1 - displays the current month
+
+13. mv-Move.This command is used to move or rename files
+    Eg.mv aaa.txt destination-directory
+
+14. cp-copy.It is used to copy files or directories from source to destination
+    Eg cp aa.text bb.txt
+
+15. which-It displays the full path for each of the given arguments
+   Eg.which sh
